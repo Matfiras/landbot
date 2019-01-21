@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+.general{
+    font-family: 'Fredoka One', cursive;
+    background-color:purple;
+
+}
+.border-prop{
+    margin:0.5%;
+    border: 0.7px solid transparent;
+    border-radius: 2%;
+    z-index: -7;
+    -webkit-animation-name: animation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: animation;
+    animation-duration: 5s infinite;
+    animation-iteration-count: infinite;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes animation {
+    from {background-color: #6156a8;}
+    to {background-color: #ec4170;}
+  }
+  
+  /* Standard syntax */
+  @keyframes animation {
+    from {background-color: #6156a8;}
+    to {background-color: #ec4170;}
+  
+}
+.logo{
+    margin:2.5%;
+    color:white;
+
+}
+.button-type{
+    margin:2% 1% 1%;
+    display: flex;
+    justify-content: space-around
+}
+.button-1{
+    width: 120;
+    background-color: transparent;
+    border: 1px solid #ef0075;
+    padding: 1.2% 5% 0.8%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+border-radius: 5%;
+    font-size: 17px;
+    margin: 2.5% 2% 7%;
+    cursor: pointer;
+}
+.button-2{
+    width: 130;
+
+    background-color:#ef0075 ;
+    border: 1px solid #ef0075;
+    padding: 1.2% 5% 0.8%;
+    color: white;
+    margin: 2.5% 2% 7%;
+    text-align: center;
+    text-decoration: none;
+border-radius: 5%;
+    font-size: 17px;
+   
+    cursor: pointer;
+}
+.pricing{
+    margin:15%;
+    color:white;
+    text-decoration: none;
+    font-size: 20px
+}
+.dialogue{
+    margin:2%;
+
+
+}
+.icone-dialogue{
+    display: flex;
+    justify-content: center;
+}
+.icone{
+    margin-top: 6%;
+    width: 3%;
+    height: 3%;
+}
+.paragraph{
+    margin-top: 2%;
+    padding: 1%;
+    background-color: white;
+    color: rgb(69, 33, 98);
+    border-radius: 10%;
+
+}
+.choose-buttons{
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    margin: 2% 0.5% 2%;
+}
+.request{
+    padding-left: 350px;
+    color:white;
+    font-size: 60%;
+    font-weight: 50%;
+    align-items: center;
+}
